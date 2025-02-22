@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mario Alvarado Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap, AOS and Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+  <!-- Navbar with Dark Mode Toggle -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Mario A Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button id="toggle-dark-mode" class="btn btn-outline-light">Dark Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <div class="hero-content text-center" data-aos="fade-up">
+      <h1>Welcome, I'm Mario Alvarado!</h1>
+      <p>Front-End Web Developer &amp; Digital Experience Creator</p>
+      <a href="#contact" class="btn btn-primary btn-lg mt-4">Work With Me</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container" data-aos="fade-right">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 pr-md-5 mb-4 mb-md-0 mod order-md-1">
+          <img src="img/about.jpg" alt="Mario Alvarado" class="img-fluid rounded shadow about-me-img">
+        </div>
+        <div class="col-md-7 d-flex flex-column align-items-center text-center order-md-2">
+          <h2>About Me</h2>
+          <p>I am a passionate front-end developer with a keen eye for design and innovation. I have been self-taught in web development for over a year, mastering HTML, CSS, JavaScript, and modern frameworks.</p>
+          <p>My self-directed studies have enabled me to create personal projects that showcase my ability to build engaging and responsive digital experiences. I'm always eager to learn more and improve my skills.</p>
+          <a href="#projects" class="btn btn-outline-primary mt-3">View My Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container" data-aos="fade-up">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-code"></i></div>
+          <div class="timeline-content">
+            <h3>First Steps in HTML &amp; CSS</h3>
+            <span>2023</span>
+            <p>I began my journey in web development by familiarizing myself with HTML structure and CSS styling.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fab fa-js"></i></div>
+          <div class="timeline-content">
+            <h3>JavaScript Fundamentals</h3>
+            <span>2024</span>
+            <p>I delved into JavaScript to create more interactive pages, practicing DOM manipulation and small projects.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="timeline-content">
+            <h3>Personal Portfolio Project</h3>
+            <span>2024</span>
+            <p>I built my first personal portfolio to showcase my projects and demonstrate my initial skills.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fab fa-react"></i></div>
+          <div class="timeline-content">
+            <h3>Exploring React &amp; Bootstrap</h3>
+            <span>2025</span>
+            <p>I started using React to create dynamic interfaces and Bootstrap to speed up responsive design.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container" data-aos="fade-left">
+      <h2>Featured Projects</h2>
+      <div class="row g-4 align-items-stretch">
+        <!-- Project 1: Tic Tac Toe -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <a href="https://mario777je.github.io/Tic-Tac-Toe/" target="_blank">
+              <img src="img/xo.png" class="card-img-top" alt="Tic Tac Toe">
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">
+                A seemingly simple game that requires advanced JavaScript and DOM manipulation for its impressive functionality.
+              </p>
+              <a href="https://mario777je.github.io/Tic-Tac-Toe/" target="_blank" class="btn btn-primary mt-auto">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2: F1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <a href="https://mario777je.github.io/" target="_blank">
+              <img src="img/f1.png" class="card-img-top" alt="F1">
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">
+                My top project that features an aesthetically pleasing design and full responsiveness—even without JavaScript enhancements.
+              </p>
+              <a href="https://mario777je.github.io/" target="_blank" class="btn btn-primary mt-auto">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3: Shape -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <a href="https://mario777je.github.io/drag/" target="_blank">
+              <img src="img/shape.png" class="card-img-top" alt="Shape">
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">
+                A project focused on dragging figures; functionality takes precedence while still adapting impressively to various screen sizes.
+              </p>
+              <a href="https://mario777je.github.io/drag/" target="_blank" class="btn btn-primary mt-auto">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container" data-aos="zoom-in">
+      <h2>Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3 col-6 mb-4">
+          <i class="fab fa-html5 skills-icon text-danger"></i>
+          <h5>HTML5</h5>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <i class="fab fa-css3-alt skills-icon text-primary"></i>
+          <h5>CSS3</h5>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <i class="fab fa-js-square skills-icon text-warning"></i>
+          <h5>JavaScript</h5>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <i class="fab fa-bootstrap skills-icon text-bootstrap"></i>
+          <h5>Bootstrap</h5>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <i class="fab fa-react skills-icon text-info"></i>
+          <h5>React</h5>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 col-md-8 mx-auto">
+          <h5 class="text-start">HTML <span class="float-end">90%</span></h5>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="text-start">CSS <span class="float-end">85%</span></h5>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="text-start">JavaScript <span class="float-end">70%</span></h5>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="text-start">Bootstrap <span class="float-end">60%</span></h5>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-bootstrap" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="text-start">React <span class="float-end">80%</span></h5>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container" data-aos="fade-up">
+      <h2>Contact</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form id="contact-form" action="https://formspree.io/f/mnnjrwzd" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <!-- Container for status messages -->
+          <div id="form-status" style="margin-top: 15px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-3">&copy; 2025 Mario Alvarado. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- External Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- Custom Script -->
+  <script src="scripts.js"></script>
+</body>
+</html>
